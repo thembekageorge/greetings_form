@@ -1,0 +1,7 @@
+<h3>Names of people that have been greeted :</h3>
+<form value="name" class="greetedNames" action="/greeted" method="post">
+  {{#each greeted}}
+    <p class="greetedpeople">{{this}}</p>
+  {{/each}}
+  <a href="/">home</a>
+</form>
