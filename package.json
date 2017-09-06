@@ -1,32 +1,30 @@
 {
   "name": "greetings_form",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha"
   },
+  "keywords": [],
   "author": "thembeka",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
-  },
-  "engines" : {
-    "node": "4.2.6"
+    "body-parser": "^1.17.2",
+    "cool-ascii-faces": "1.3.4",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.11.9"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thembekageorge/greetings_form.git"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
   "bugs": {
-    "url": "https://github.com/thembekageorge/greetings_form/issues"
+    "url":  "https://github.com/thembekageorge/greetings_form/issues"
   },
-  "homepage": "https://github.com/thembekageorge/greetings_form#readme",
-  "description": ""
+  "homepage": "https://github.com/thembekageorge/greetings_form#readme"
 }
