@@ -3,7 +3,7 @@ const exphbs = require("express-handlebars");
 const form = require('body-parser');
 var app = express();
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/dbs1');
+mongoose.connect('mongodb://<admin>:<tg9703151103082>@ds127044.mlab.com:27044/dbs1');
 // const mongoURL = process.env.MONGO_DB_URL || "'mongodb://localhost/dbs1'";
 //
 // mongoose.connect(mongoURL);
