@@ -16,7 +16,7 @@
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.10",
-    "mongoose": "^4.11.9"
+    "mongoose": "^4.11.10"
   },
   "devDependencies": {},
   "repository": {
@@ -24,7 +24,7 @@
     "url": "git+https://github.com/thembekageorge/greetings_form.git"
   },
   "bugs": {
-    "url":  "https://github.com/thembekageorge/greetings_form/issues"
+    "url": "https://github.com/thembekageorge/greetings_form/issues"
   },
   "homepage": "https://github.com/thembekageorge/greetings_form#readme"
 }

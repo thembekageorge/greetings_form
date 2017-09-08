@@ -2,11 +2,54 @@ const express = require('express');
 const exphbs = require("express-handlebars");
 const form = require('body-parser');
 var app = express();
-// var mongoose = require('mongoose');
-// mongoose.connect('mongodb://<admin>:<tg9703151103082>@ds127044.mlab.com:27044/dbs1');
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://admin:tg9703151103082@ds127044.mlab.com:27044/dbs1');
+// mongoose.connect('mongodb://localhost/mongo-workshop3');
+
 // const mongoURL = process.env.MONGO_DB_URL || "'mongodb://localhost/dbs1'";
 //
 // mongoose.connect(mongoURL);
+//
+// remember to find Workshop and replace with Person, that is your model
+var Person = mongoose.model('Person', {
+    name: String,
+    //this will be attendees, here will be the counter
+    counter : [String]
+});
+module.exports = function(){
+
+    var add = function(name, cb){
+//         Person.findOne({name : "Webstorm intro"}, function(err, workshop){
+//            if (person){
+//                workshop.attendees.push(name);
+//                workshop.save(cb)
+//            }
+//            else{
+//                console.log("No such workshop!")
+//                cb("No such workshop");
+//            }
+//         });
+//     }
+//
+//     return {
+//         add
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // setting rendering engine
 app.engine("handlebars", exphbs({
