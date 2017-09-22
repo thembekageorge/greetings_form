@@ -20,7 +20,7 @@ label {
   font-size: 1.2em;
 }
 
-#textbox {
+#textbox, #resetBtn {
   padding: 0.4em;
   background-color: white;
 }
